@@ -38,10 +38,10 @@ const TodoForm = ({ todo, setTodo, saveTodo }) => {
               />
             </div>
 
-            <div class="form-group">
-                <label for="todoDifficulty">Choose difficulty</label>
+            <div className="form-group">
+                <label htmlFor="todoDifficulty">Choose difficulty</label>
                 <select
-                class="form-control"
+                className="form-control"
                 id="todoDifficulty"
                 value={todo.difficulty}
                 onChange={event => {
